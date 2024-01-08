@@ -1,7 +1,7 @@
 # pipeline will creating everything at once
 
 pipeline {
-    
+    #setting the environment
     environment{
         DOCKERHUB_CREDENTIALS = credentials('aubreyz-dockerhub')
         AWS_EKS_REGION = 'us-east-1'
