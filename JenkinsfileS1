@@ -8,6 +8,8 @@ pipeline {
         AWS_EKS_CLUSTER_NAME = "finalv1"
         k8 = 'k8'
     }
+
+# utlize the backend instance for docker
     agent {label 'awsDeploy2'}
         
     stages{
