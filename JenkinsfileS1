@@ -9,7 +9,7 @@ pipeline {
         k8 = 'k8'
     }
 
-# utlize the backend instance for docker
+# utlize the docker instance to build docker images
     agent {label 'awsDeploy2'}
         #building backend image
     stages{
