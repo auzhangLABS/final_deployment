@@ -11,7 +11,7 @@ pipeline {
 
 # utlize the backend instance for docker
     agent {label 'awsDeploy2'}
-        
+        #building backend image
     stages{
     stage('Build backend'){
         steps {
